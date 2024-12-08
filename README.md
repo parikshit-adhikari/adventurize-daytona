@@ -1,6 +1,6 @@
 # Sample Javascript/Reactjs/Nodejs
 
-Adventurize is a web-app that allows users to search for different locations to visit.
+Adventurize is a web-app that allows users to search for different locations to visit and gather the information regarding those locations.
 
 ## 🚀 Getting Started  
 
