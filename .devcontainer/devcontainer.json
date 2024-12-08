@@ -1,0 +1,22 @@
+{
+  "name": "Adventurize Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "forwardPorts": [
+    3000,
+    5173
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "javascript.suggest.autoImports": true,
+        "editor.formatOnSave": true
+      },
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "ms-vsliveshare.vsliveshare"
+      ]
+    }
+  },
+  "postCreateCommand": "npm install --prefix frontend && npm install --prefix backend"
+}
